@@ -1462,6 +1462,17 @@ body {
   }
 }
 
+@media (min-width: 361px) and (max-width: 480px) {
+  .nav-search {
+    display: flex !important;
+    padding: 6px 10px !important;
+  }
+  .nav-search input {
+    width: 120px !important; /* yoki 150px */
+    font-size: 13px !important;
+  }
+}
+
 @media (max-width: 480px) {
   .logo-text {
     font-size: 20px;
@@ -1470,10 +1481,8 @@ body {
   .logo i {
     font-size: 28px;
   }
-  
-  .nav-search {
-    margin-left:20px;
-  }
+
+
   
   .hero {
     height: 60vh;
